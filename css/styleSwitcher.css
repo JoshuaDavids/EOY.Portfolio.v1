@@ -1,0 +1,71 @@
+.style-swapper {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #d4d4e3;
+  border-right: none;
+  border-radius: 0 0 0 5px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.style-swapper.open {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.style-swapper h5 {
+  font-size: 16px;
+  color: #302e4d;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8dfec;
+}
+.style-swapper ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 5px;
+  list-style: none;
+}
+.style-swapper ul li {
+  display: inline-block;
+}
+.style-swapper ul li a {
+  height: 30px;
+  width: 30px;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 2px;
+}
+.style-swapper .toggle {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: #ffffff;
+  left: -46px;
+  top: -1px;
+  border: 1px solid #d4d4e3;
+  border-right: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+.style-swapper .toggle .fa {
+  font-size: 20px;
+  line-height: 43px;
+}
+.style-swapper .toggle:hover .fa {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+}
