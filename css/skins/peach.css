@@ -1,0 +1,46 @@
+:root {
+  --skin: #ff7e69;
+}
+.side .logo a::before {
+  border-top: 4px solid var(--skin);
+  border-left: 4px solid var(--skin);
+}
+.side .logo a::after {
+  border-right: 4px solid var(--skin);
+  border-bottom: 4px solid var(--skin);
+}
+.contact .contact-info-item .icon .fa,
+.testimonials .testimonials-item-inner .testimonials-info .testimonials-tags a,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+body.dark .portfolio .portfolio-filter button.active,
+.portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
+body.dark .side .nav li a:hover,
+.side .nav li a:hover,
+body.dark .side .nav li a.active,
+.side .nav li a.active {
+  color: var(--skin);
+}
+/* #progressbar,
+#progressbar:before,
+#progressbar:after, */
+.testimonials .testimonials-item-inner .testimonials-img .testimonials-date,
+.service .service-item .service-item-inner:hover .icon,
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.btn,
+.section-title h2::after,
+.section-title h2::before,
+.side .nav-toggler span,
+.side .nav-toggler span::before,
+.side .nav-toggler span::after,
+.home .intro .social-link a,
+.about .about-content .skills .skill-item .progress .progress-in {
+  background-color: var(--skin);
+}
+.portfolio .portfolio-filter button.active {
+  border-color: var(--skin);
+}
